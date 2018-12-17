@@ -32,6 +32,9 @@ zgen load gretzky/auto-color-ls
 
 ### oh-my-zsh
 
-- cd `~/.oh-my-zsh/custom/plugins`
-- `git clone https://github.com/gretzky/auto-color-ls`
-- add `auto-color-ls` to `plugins=()` in your `.zshrc`
+Run
+```bash
+( cd $ZSH_CUSTOM/plugins && git clone https://github.com/gretzky/auto-color-ls )
+```
+
+Then add `auto-color-ls` to `plugins=()` in your `.zshrc`
